@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title> Test all accesskey types with buttons, input, label, legend and textarea</title>
+    </head>
+    <body>
+       <form action="action.php">
+           <fieldset>
+               <legend accesskey="P"> Personal Information</legend>
+               <label accesskey="M">First name: </label> <input name="fname" accesskey="F"/><br/>
+               <label accesskey="T">Last name: </label> <input name="fname" accesskey="L"/><br/>
+               <label accesskey="E">Email: </label> <input name="email" accesskey="M"/> <br/>
+           </fieldset>
+           <fieldset> 
+               <legend accesskey="C">Career</legend>
+               <label accesskey="X">Years of experience:</label><input name="eo" accesskey="Y"/><br/>
+               <label accesskey="U">Industry:</label><input name="industry" accesskey="N"/><br/>
+           </fieldset>
+           <button type="button" name="Submit" accesskey="S">Submit</button>
+       </form> 
+    </body>
+</html>
