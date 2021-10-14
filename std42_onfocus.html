@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <title>Example of HTML onfocus attribute with form elements</title>
+  </head>
+  <body>
+    <form name="onfocus_example" action="">
+      Name :
+      <input
+        type="text"
+        name="name"
+        onfocus="alert('name field has got focus')"
+      /><br />
+      <label>Favorite Sports </label>
+      <select
+        name="favourite_sports"
+        onfocus="alert('favourite_sports field has got focus')"
+      >
+        <option value="Soccer">Soccer</option>
+        <option value="Hockey">Hockey</option>
+        <option value="Tennis">Tennis</option>
+        <option value="Golf">Golf</option></select
+      ><br />
+      <label>Describe yourself in short : </label> <br /><textarea cols="10" rows="10" name="describe_ yourself" onfocus="alert('describe_ yourself field has got focus')">
+      </textarea><br />
+      <button type="button" name="submit">Submit</button>
+    </form>
+  </body>
+</html>

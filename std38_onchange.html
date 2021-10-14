@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Example of HTML onblur attribute with form elements</title>
+    </head>
+    <body>
+        <form name="onblur_example" action="">
+            Name: <input type="text" name="name" noblur="alert('name field has lost focus')"><br>
+            <label>Favorite Sports</label>
+            <select name="favorite_sports" onblur="alert('favorite_sports has lost focus')">
+            <option value="Soccer">Soccer</option>
+            <option value="Football">Football</option>
+            <option value="Volleyball">Volleyball</option>
+            <option value="Hockey">Hockey</option>
+            <option value="Tennis">Tennis</option>
+            <option value="Golf">Golf</option>
+            </select><br>
+            <label>Describe yourself in short: </label> <br><textarea cols="10" rows="10" name="describe_yourself" onchange="alert('value of describe_yourself is changed')" onblur="alert('describe_yourself has lost focus')"> </textarea> <br>
+            <button type="button" name="submit">Submit</button>
+        </form>
+    </body>
+</html>
